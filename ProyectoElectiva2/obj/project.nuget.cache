@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "MqyPlL+4BXA=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\cafam\\Documents\\INCCA\\ProyectoElectiva2\\ProyectoElectiva2\\ProyectoElectiva2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\cafam\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.2\\microsoft.aspnetcore.openapi.10.0.2.nupkg.sha512",
+    "C:\\Users\\cafam\\.nuget\\packages\\microsoft.openapi\\2.0.0\\microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

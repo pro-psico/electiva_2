@@ -1,0 +1,36 @@
+﻿using ProyectoElectiva2.Interface;
+using ProyectoElectiva2.Models;
+
+namespace ProyectoElectiva2.Services
+{
+    public class TaskServices : ITaskServices
+    {
+        private static readonly List<TaskModel> _tasks = new();
+        private static int _nextId = 1;
+        public void CompletarTarea(int taskId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void CrearTarea(TaskModel task)
+        {
+            if (task == null) throw new ArgumentNullException(nameof(task));
+
+            task.Id = _nextId++;
+            task.Title = task.Title ?? string.Empty;
+            task.Description = task.Description ?? string.Empty;
+
+            _tasks.Add(task);
+        }
+
+        public void ElimiarTarea(int taskId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<TaskModel> ObtenerTareas()
+        {
+            throw new NotImplementedException();
+        }
+    }
+}

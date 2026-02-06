@@ -1,0 +1,106 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cafam\\Documents\\INCCA\\ProyectoElectiva2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF5A8C7-14ED-4F65-82F2-E8D8B0A41558}|ProyectoElectiva2\\ProyectoElectiva2.csproj|c:\\users\\cafam\\documents\\incca\\proyectoelectiva2\\proyectoelectiva2\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF5A8C7-14ED-4F65-82F2-E8D8B0A41558}|ProyectoElectiva2\\ProyectoElectiva2.csproj|solutionrelative:proyectoelectiva2\\controllers\\tareascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF5A8C7-14ED-4F65-82F2-E8D8B0A41558}|ProyectoElectiva2\\ProyectoElectiva2.csproj|c:\\users\\cafam\\documents\\incca\\proyectoelectiva2\\proyectoelectiva2\\services\\taskservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF5A8C7-14ED-4F65-82F2-E8D8B0A41558}|ProyectoElectiva2\\ProyectoElectiva2.csproj|solutionrelative:proyectoelectiva2\\services\\taskservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF5A8C7-14ED-4F65-82F2-E8D8B0A41558}|ProyectoElectiva2\\ProyectoElectiva2.csproj|c:\\users\\cafam\\documents\\incca\\proyectoelectiva2\\proyectoelectiva2\\interface\\itaskservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF5A8C7-14ED-4F65-82F2-E8D8B0A41558}|ProyectoElectiva2\\ProyectoElectiva2.csproj|solutionrelative:proyectoelectiva2\\interface\\itaskservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF5A8C7-14ED-4F65-82F2-E8D8B0A41558}|ProyectoElectiva2\\ProyectoElectiva2.csproj|c:\\users\\cafam\\documents\\incca\\proyectoelectiva2\\proyectoelectiva2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF5A8C7-14ED-4F65-82F2-E8D8B0A41558}|ProyectoElectiva2\\ProyectoElectiva2.csproj|solutionrelative:proyectoelectiva2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AFF5A8C7-14ED-4F65-82F2-E8D8B0A41558}|ProyectoElectiva2\\ProyectoElectiva2.csproj|c:\\users\\cafam\\documents\\incca\\proyectoelectiva2\\proyectoelectiva2\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AFF5A8C7-14ED-4F65-82F2-E8D8B0A41558}|ProyectoElectiva2\\ProyectoElectiva2.csproj|solutionrelative:proyectoelectiva2\\models\\taskmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TaskModel.cs",
+              "DocumentMoniker": "C:\\Users\\cafam\\Documents\\INCCA\\ProyectoElectiva2\\ProyectoElectiva2\\Models\\TaskModel.cs",
+              "RelativeDocumentMoniker": "ProyectoElectiva2\\Models\\TaskModel.cs",
+              "ToolTip": "C:\\Users\\cafam\\Documents\\INCCA\\ProyectoElectiva2\\ProyectoElectiva2\\Models\\TaskModel.cs",
+              "RelativeToolTip": "ProyectoElectiva2\\Models\\TaskModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T01:51:36.431Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cafam\\Documents\\INCCA\\ProyectoElectiva2\\ProyectoElectiva2\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoElectiva2\\Program.cs",
+              "ToolTip": "C:\\Users\\cafam\\Documents\\INCCA\\ProyectoElectiva2\\ProyectoElectiva2\\Program.cs",
+              "RelativeToolTip": "ProyectoElectiva2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T02:24:30.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ITaskServices.cs",
+              "DocumentMoniker": "C:\\Users\\cafam\\Documents\\INCCA\\ProyectoElectiva2\\ProyectoElectiva2\\Interface\\ITaskServices.cs",
+              "RelativeDocumentMoniker": "ProyectoElectiva2\\Interface\\ITaskServices.cs",
+              "ToolTip": "C:\\Users\\cafam\\Documents\\INCCA\\ProyectoElectiva2\\ProyectoElectiva2\\Interface\\ITaskServices.cs",
+              "RelativeToolTip": "ProyectoElectiva2\\Interface\\ITaskServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T01:59:24.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TareasController.cs",
+              "DocumentMoniker": "C:\\Users\\cafam\\Documents\\INCCA\\ProyectoElectiva2\\ProyectoElectiva2\\Controllers\\TareasController.cs",
+              "RelativeDocumentMoniker": "ProyectoElectiva2\\Controllers\\TareasController.cs",
+              "ToolTip": "C:\\Users\\cafam\\Documents\\INCCA\\ProyectoElectiva2\\ProyectoElectiva2\\Controllers\\TareasController.cs",
+              "RelativeToolTip": "ProyectoElectiva2\\Controllers\\TareasController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T02:50:16.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskServices.cs",
+              "DocumentMoniker": "C:\\Users\\cafam\\Documents\\INCCA\\ProyectoElectiva2\\ProyectoElectiva2\\Services\\TaskServices.cs",
+              "RelativeDocumentMoniker": "ProyectoElectiva2\\Services\\TaskServices.cs",
+              "ToolTip": "C:\\Users\\cafam\\Documents\\INCCA\\ProyectoElectiva2\\ProyectoElectiva2\\Services\\TaskServices.cs",
+              "RelativeToolTip": "ProyectoElectiva2\\Services\\TaskServices.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T01:54:59.313Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using ProyectoElectiva2.Interface;
+using ProyectoElectiva2.Models;
+
+namespace ProyectoElectiva2.Controllers
+{
+    [ApiController]
+    [Route("api/[controller]")]
+    public class TareasController : ControllerBase
+    {
+        private readonly ITaskServices _taskServices;
+
+        public TareasController(ITaskServices taskServices)
+        {
+            _taskServices = taskServices;
+        }
+
+        // POST api/tareas
+        [HttpPost("/api/tareas")]
+        public IActionResult CrearTarea([FromBody] TaskModel model)
+        {
+            if (model == null)
+                return BadRequest();
+
+            if (string.IsNullOrEmpty(model.Title))
+                return BadRequest("El título es obligatorio");
+
+            _taskServices.CrearTarea(model);
+            return Ok(new { message = "Tarea creada" });
+        }
+
+        // GET api/tareas
+        [HttpGet("/api/tareas")]
+        public IActionResult ObtenerTareas()
+        {
+            var tareas = _taskServices.ObtenerTareas();
+            return Ok(tareas);
+        }
+
+        // PUT api/tareas/{id}/completar
+        [HttpPut("/api/tareas/{id}/completar")]
+        public IActionResult CompletarTarea(int id)
+        {
+            _taskServices.CompletarTarea(id);
+            return NoContent();
+        }
+
+        // DELETE api/tareas/{id}
+        [HttpDelete("/api/tareas/{id}")]
+        public IActionResult ElimiarTarea(int id)
+        {
+            _taskServices.ElimiarTarea(id);
+            return NoContent();
+        }
+
+        [HttpPut("/api/tareas/{id}")]
+
+        public IActionResult ModificarTarea(int id)
+        {
+
+        }
+
+        private class CrearTareaRequest
+        {
+            public string Title { get; set; }
+            public string Description { get; set; }
+        }
+    }
+}

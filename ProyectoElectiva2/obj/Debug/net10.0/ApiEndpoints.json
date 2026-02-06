@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "ProyectoElectiva2.Controllers.TareasController",
+    "Method": "CrearTarea",
+    "RelativePath": "api/Tareas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ProyectoElectiva2.Models.TaskModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoElectiva2.Controllers.TareasController",
+    "Method": "ObtenerTareas",
+    "RelativePath": "api/Tareas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoElectiva2.Controllers.TareasController",
+    "Method": "ElimiarTarea",
+    "RelativePath": "api/Tareas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoElectiva2.Controllers.TareasController",
+    "Method": "ModificarTarea",
+    "RelativePath": "api/Tareas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "model",
+        "Type": "ProyectoElectiva2.Models.TaskModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ProyectoElectiva2.Controllers.TareasController",
+    "Method": "CompletarTarea",
+    "RelativePath": "api/Tareas/{id}/completar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,68 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using ProyectoElectiva2.Interface;
+using ProyectoElectiva2.Models;
+
+namespace ProyectoElectiva2.Services
+{
+    public class TaskServices : ITaskServices
+    {
+        private static readonly List<TaskModel> _tasks = new();
+        private static int _nextId = 1;
+
+        public void CompletarTarea(int taskId)
+        {
+            var tarea = _tasks.FirstOrDefault(t => t.Id == taskId);
+            if (tarea == null)
+            {
+                Console.WriteLine($"Tarea con Id {taskId} no encontrada.");
+                return;
+            }
+
+            if (tarea.IsCompleted)
+            {
+                Console.WriteLine("La tarea ya está completada.");
+                return;
+            }
+
+            tarea.IsCompleted = true;
+        }
+
+        public void CrearTarea(string title, string description)
+        {
+            var task = new TaskModel
+            {
+                Id = _nextId++,
+                Title = title ?? string.Empty,
+                Description = description ?? string.Empty,
+                IsCompleted = false
+            };
+
+            _tasks.Add(task);
+        }
+
+        public void ElimiarTarea(int taskId)
+        {
+            var tarea = _tasks.FirstOrDefault(t => t.Id == taskId);
+            if (tarea == null)
+            {
+                Console.WriteLine($"Tarea con Id {taskId} no encontrada.");
+                return;
+            }
+
+            _tasks.Remove(tarea);
+        }
+
+        public List<TaskModel> ObtenerTareas()
+        {
+            return _tasks.Select(t => new TaskModel
+            {
+                Id = t.Id,
+                Title = t.Title,
+                Description = t.Description,
+                IsCompleted = t.IsCompleted
+            }).ToList();
+        }
+    }
+}
